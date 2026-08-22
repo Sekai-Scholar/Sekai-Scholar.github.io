@@ -4,237 +4,209 @@
   <title>Sekai Scholar -プロフィール</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="../style.css">
-  <style>
-    table {
-    border-collapse: collapse;
-    }
-    th, td {
-      border: 1px solid black;
-    }
-    .table {
-      overflow-x: auto;
-      display: block;
-    }
-    th,td {
-      white-space: nowrap;
-    }
-
-    .profile {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-    }
-    .profile figure{
-      width: calc(25% - 10px);
-      margin: 0;
-    }
-    .profile img{
-      width: 100%;
-      display: block;
-    }
-    .profile figcaption{
-      text-align: center;
-    }
-  </style>
 </head>
 <body>
   <header>
     <h1>プロフィール</h1>
   </header>
 
-  <h2>早見表</h2>
-    <div class="table">
-    <table>
-      <tr>
-        <th>名前</th><th>CV</th><th>誕生日</th><th>身長(進級前)</th><th>身長(進級後)</th><th>学校</th><th>学年(進級前)</th><th>学年(進級後)</th><th>趣味</th><th>特技</th><th>好きな食べ物</th><th>嫌いな食べ物</th><th>苦手</th>
-      </tr>
-      <tr>
-        <td>初音ミク</td><td>藤田咲</td><td>8/31</td><td>158cm</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
-      </tr>
-      <tr>
-        <td>鏡音リン</td><td>下田麻美</td><td>12/27</td><td>152cm</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
-      </tr>
-      <tr>
-        <td>鏡音レン</td><td>下田麻美</td><td>12/27</td><td>156cm</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
-      </tr>
-      <tr>
-        <td>巡音ルカ</td><td>浅川悠</td><td>1/31</td><td>162cm</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
-      </tr>
-      <tr>
-        <td>MEIKO</td><td>拝郷メイコ</td><td>11/5</td><td>167cm</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
-      </tr>
-      <tr>
-        <td>KAITO</td><td>風雅なおと</td><td>2/17</td><td>172cm</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
-      </tr>
-      <tr>
-        <td>星乃一歌</td><td>野口瑠璃子</td><td>8/11</td><td>161cm</td><td>162cm</td><td>宮益坂女子学園</td><td>1-C</td><td>2-A</td><td>ミクの歌を聴くこと、育てているサボテンを眺める</td><td>りんごの皮むき</td><td>焼きそばパン</td><td>グリーンピース</td><td>絶叫アトラクション</td>
-      </tr>
-      <tr>
-        <td>天馬咲希</td><td>磯部花凛</td><td>5/9</td><td>159cm</td><td>160cm</td><td>宮益坂女子学園</td><td>1-C</td><td>2-B</td><td>ファッション・メイク動画視聴、ビーズアクセサリー作り</td><td>ヘアアレンジ、お手玉</td><td>スナック菓子</td><td>おかゆ</td><td>一人ぼっち</td>
-      </tr>
-      <tr>
-        <td>望月穂波</td><td>上田麗奈</td><td>10/27</td><td>166cm</td><td>166cm</td><td>宮益坂女子学園</td><td>1-B</td><td>2-A</td><td>飼い犬の散歩、家庭菜園</td><td>家事全般、水泳</td><td>アップルパイ</td><td>チーズ</td><td>絵を描くこと</td>
-      </tr>
-      <tr>
-        <td>日野森志歩</td><td>中島由貴</td><td>1/8</td><td>159cm</td><td>159cm</td><td>宮益坂女子学園</td><td>1-A</td><td>2-B</td><td>好きなガールズバンドのライブに行く、ベースの練習・演奏</td><td>書道</td><td>ラーメン、ハンバーグ</td><td>豆腐</td><td>姉</td>
-      </tr>
-      <tr>
-        <td>花里みのり</td><td>小倉唯</td><td>4/14</td><td>158cm</td><td>159cm</td><td>宮益坂女子学園</td><td>1-A</td><td>2-D</td><td>振りコピ、日記をつけること、動物の世話</td><td>キャッチフレーズをつけること</td><td>サーモン</td><td>ブロッコリー</td><td>落ち着いた行動</td>
-      </tr>
-      <tr>
-        <td>桐谷遥</td><td>吉岡茉祐</td><td>10/5</td><td>163cm</td><td>163cm</td><td>宮益坂女子学園</td><td>1-C</td><td>2-D</td><td>ペンギングッズあつめ</td><td>バスケットボール</td><td>甘いもの全般</td><td>ワサビ</td><td>怠けること</td>
-      </tr>
-      <tr>
-        <td>桃井愛莉</td><td>降幡愛</td><td>3/19</td><td>156cm</td><td>156cm</td><td>宮益坂女子学園</td><td>2-D</td><td>3-E</td><td>アイドル研究、ショッピング</td><td>料理、子供の面倒を見ること</td><td>和菓子</td><td>レバー</td><td>ネコ（アレルギー）</td>
-      </tr>
-      <tr>
-        <td>日野森雫</td><td>本泉莉奈</td><td>12/6</td><td>168cm</td><td>168cm</td><td>宮益坂女子学園</td><td>2-D</td><td>3-E</td><td>読書、散歩</td><td>弓道、刺繍</td><td>うどん、湯葉</td><td>辛いもの全般</td><td>地図を読むこと、機械の操作</td>
-      </tr>
-      <tr>
-        <td>小豆沢こはね</td><td>秋奈</td><td>3/2</td><td>156cm</td><td>156cm</td><td>宮益坂女子学園</td><td>1-A</td><td>2-A</td><td>父親が飼っているヘビのお世話</td><td>写真</td><td>桃まん、ごま団子</td><td>酢の物</td><td>人前に立つこと</td>
-      </tr>
-      <tr>
-        <td>白石杏</td><td>鷲見友美ジェナ</td><td>7/26</td><td>160cm</td><td>160cm</td><td>神山高校</td><td>1-B</td><td>2-A</td><td>ミント栽培</td><td>コーヒーや紅茶を淹れること</td><td>ラムレーズンのアイス</td><td>トマト</td><td>幽霊、怪談話</td>
-      </tr>
-      <tr>
-        <td>東雲彰人</td><td>今井文也</td><td>11/12</td><td>174cm</td><td>176cm</td><td>神山高校</td><td>1-C</td><td>2-A</td><td>ファッションコーディネート</td><td>ヒューマンビートボックス</td><td>パンケーキ、チーズケーキ</td><td>にんじん</td><td>犬</td>
-      </tr>
-      <tr>
-        <td>青柳冬弥</td><td>伊東健人</td><td>5/25</td><td>178cm</td><td>179cm</td><td>神山高校</td><td>1-B</td><td>2-B</td><td>読書</td><td>ピアノ、バイオリン</td><td>コーヒー、クッキー</td><td>イカ</td><td>高い所</td>
-      </tr>
-      <tr>
-        <td>天馬司</td><td>廣瀬大介</td><td>5/17</td><td>172cm</td><td>173cm</td><td>神山高校</td><td>2-A</td><td>3-C</td><td>ミュージカル観劇、衣装づくり</td><td>どんな時も即カッコいいポーズができる、ピアノ</td><td>アクアパッツァ、生姜焼き</td><td>ピーマン</td><td>虫（特に多足）</td>
-      </tr>
-      <tr>
-        <td>鳳えむ</td><td>木野日菜</td><td>9/9</td><td>152cm</td><td>152cm</td><td>宮益坂女子学園</td><td>1-B</td><td>2-B</td><td>ご近所探検</td><td>アクロバット、なんでも美味しく食べられる</td><td>たい焼き</td><td>なし！</td><td>夕暮れ</td>
-      </tr>
-      <tr>
-        <td>草薙寧々</td><td>Machico</td><td>7/20</td><td>156cm</td><td>156cm</td><td>神山高校</td><td>1-B</td><td>2-A</td><td>対戦ゲーム、ミュージカル・映画鑑賞</td><td>歌、機械の操作全般</td><td>グレープフルーツ</td><td>ミント味の食べ物</td><td>人通りの多い場所</td>
-      </tr>
-      <tr>
-        <td>神代類</td><td>土岐隼一</td><td>6/24</td><td>180cm</td><td>182cm</td><td>神山高校</td><td>2-B</td><td>3-C</td><td>ショーの演出を考えること、バルーンアート</td><td>発明</td><td>ラムネ菓子</td><td>野菜全般</td><td>掃除、単純作業</td>
-      </tr>
-      <tr>
-        <td>宵崎奏</td><td>楠木ともり</td><td>2/10</td><td>154cm</td><td>154cm</td><td>通信制高校</td><td>-</td><td>-</td><td>音楽を探して聞くこと、映画や漫画、アニメ、美術作品を見ること</td><td>感覚で時間を計れる</td><td>カップ麺、缶詰</td><td>パクチーや納豆など、においが独特なもの</td><td>直射日光、家事全般</td>
-      </tr>
-      <tr>
-        <td>朝比奈まふゆ</td><td>田辺留依</td><td>1/27</td><td>162cm</td><td>162cm</td><td>宮益坂女子学園</td><td>2-B</td><td>3-B</td><td>アクアリウム</td><td>英会話</td><td>お母さんの手料理</td><td>わからない</td><td>わからない</td>
-      </tr>
-      <tr>
-        <td>東雲絵名</td><td>鈴木みのり</td><td>4/30</td><td>158cm</td><td>158cm</td><td>神山高校（夜間定時制）</td><td>2-D</td><td>3-D</td><td>絵を描くこと、自撮り＆SNSにアップ、エゴサーチ</td><td>ファッション小物のリサーチ、料理の食材当て</td><td>パンケーキ、チーズケーキ</td><td>にんじん</td><td>朝起きること</td>
-      </tr>
-      <tr>
-        <td>暁山瑞希</td><td>佐藤日向</td><td>8/27</td><td>163cm</td><td>165cm</td><td>神山高校</td><td>1-B</td><td>2-B</td><td>動画素材集め、コラージュ</td><td>洋服のアレンジ</td><td>カレーライス、フライドポテト</td><td>きのこ系</td><td>熱い食べ物</td>
-      </tr>
-    </table>
-    </div>
+  <main>
+    <section class="overflow-table">
+      <h2>早見表</h2>
+      <table>
+        <tr>
+          <th>名前</th><th>CV</th><th>誕生日</th><th>身長(進級前)</th><th>身長(進級後)</th><th>学校</th><th>学年(進級前)</th><th>学年(進級後)</th><th>趣味</th><th>特技</th><th>好きな食べ物</th><th>嫌いな食べ物</th><th>苦手</th>
+        </tr>
+        <tr>
+          <td>初音ミク</td><td>藤田咲</td><td>8/31</td><td>158cm</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+        </tr>
+        <tr>
+          <td>鏡音リン</td><td>下田麻美</td><td>12/27</td><td>152cm</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+        </tr>
+        <tr>
+          <td>鏡音レン</td><td>下田麻美</td><td>12/27</td><td>156cm</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+        </tr>
+        <tr>
+          <td>巡音ルカ</td><td>浅川悠</td><td>1/31</td><td>162cm</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+        </tr>
+        <tr>
+          <td>MEIKO</td><td>拝郷メイコ</td><td>11/5</td><td>167cm</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+        </tr>
+        <tr>
+          <td>KAITO</td><td>風雅なおと</td><td>2/17</td><td>172cm</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+        </tr>
+        <tr>
+          <td>星乃一歌</td><td>野口瑠璃子</td><td>8/11</td><td>161cm</td><td>162cm</td><td>宮益坂女子学園</td><td>1-C</td><td>2-A</td><td>ミクの歌を聴くこと、育てているサボテンを眺める</td><td>りんごの皮むき</td><td>焼きそばパン</td><td>グリーンピース</td><td>絶叫アトラクション</td>
+        </tr>
+        <tr>
+          <td>天馬咲希</td><td>磯部花凛</td><td>5/9</td><td>159cm</td><td>160cm</td><td>宮益坂女子学園</td><td>1-C</td><td>2-B</td><td>ファッション・メイク動画視聴、ビーズアクセサリー作り</td><td>ヘアアレンジ、お手玉</td><td>スナック菓子</td><td>おかゆ</td><td>一人ぼっち</td>
+        </tr>
+        <tr>
+          <td>望月穂波</td><td>上田麗奈</td><td>10/27</td><td>166cm</td><td>166cm</td><td>宮益坂女子学園</td><td>1-B</td><td>2-A</td><td>飼い犬の散歩、家庭菜園</td><td>家事全般、水泳</td><td>アップルパイ</td><td>チーズ</td><td>絵を描くこと</td>
+        </tr>
+        <tr>
+          <td>日野森志歩</td><td>中島由貴</td><td>1/8</td><td>159cm</td><td>159cm</td><td>宮益坂女子学園</td><td>1-A</td><td>2-B</td><td>好きなガールズバンドのライブに行く、ベースの練習・演奏</td><td>書道</td><td>ラーメン、ハンバーグ</td><td>豆腐</td><td>姉</td>
+        </tr>
+        <tr>
+          <td>花里みのり</td><td>小倉唯</td><td>4/14</td><td>158cm</td><td>159cm</td><td>宮益坂女子学園</td><td>1-A</td><td>2-D</td><td>振りコピ、日記をつけること、動物の世話</td><td>キャッチフレーズをつけること</td><td>サーモン</td><td>ブロッコリー</td><td>落ち着いた行動</td>
+        </tr>
+        <tr>
+          <td>桐谷遥</td><td>吉岡茉祐</td><td>10/5</td><td>163cm</td><td>163cm</td><td>宮益坂女子学園</td><td>1-C</td><td>2-D</td><td>ペンギングッズあつめ</td><td>バスケットボール</td><td>甘いもの全般</td><td>ワサビ</td><td>怠けること</td>
+        </tr>
+        <tr>
+          <td>桃井愛莉</td><td>降幡愛</td><td>3/19</td><td>156cm</td><td>156cm</td><td>宮益坂女子学園</td><td>2-D</td><td>3-E</td><td>アイドル研究、ショッピング</td><td>料理、子供の面倒を見ること</td><td>和菓子</td><td>レバー</td><td>ネコ（アレルギー）</td>
+        </tr>
+        <tr>
+          <td>日野森雫</td><td>本泉莉奈</td><td>12/6</td><td>168cm</td><td>168cm</td><td>宮益坂女子学園</td><td>2-D</td><td>3-E</td><td>読書、散歩</td><td>弓道、刺繍</td><td>うどん、湯葉</td><td>辛いもの全般</td><td>地図を読むこと、機械の操作</td>
+        </tr>
+        <tr>
+          <td>小豆沢こはね</td><td>秋奈</td><td>3/2</td><td>156cm</td><td>156cm</td><td>宮益坂女子学園</td><td>1-A</td><td>2-A</td><td>父親が飼っているヘビのお世話</td><td>写真</td><td>桃まん、ごま団子</td><td>酢の物</td><td>人前に立つこと</td>
+        </tr>
+        <tr>
+          <td>白石杏</td><td>鷲見友美ジェナ</td><td>7/26</td><td>160cm</td><td>160cm</td><td>神山高校</td><td>1-B</td><td>2-A</td><td>ミント栽培</td><td>コーヒーや紅茶を淹れること</td><td>ラムレーズンのアイス</td><td>トマト</td><td>幽霊、怪談話</td>
+        </tr>
+        <tr>
+          <td>東雲彰人</td><td>今井文也</td><td>11/12</td><td>174cm</td><td>176cm</td><td>神山高校</td><td>1-C</td><td>2-A</td><td>ファッションコーディネート</td><td>ヒューマンビートボックス</td><td>パンケーキ、チーズケーキ</td><td>にんじん</td><td>犬</td>
+        </tr>
+        <tr>
+          <td>青柳冬弥</td><td>伊東健人</td><td>5/25</td><td>178cm</td><td>179cm</td><td>神山高校</td><td>1-B</td><td>2-B</td><td>読書</td><td>ピアノ、バイオリン</td><td>コーヒー、クッキー</td><td>イカ</td><td>高い所</td>
+        </tr>
+        <tr>
+          <td>天馬司</td><td>廣瀬大介</td><td>5/17</td><td>172cm</td><td>173cm</td><td>神山高校</td><td>2-A</td><td>3-C</td><td>ミュージカル観劇、衣装づくり</td><td>どんな時も即カッコいいポーズができる、ピアノ</td><td>アクアパッツァ、生姜焼き</td><td>ピーマン</td><td>虫（特に多足）</td>
+        </tr>
+        <tr>
+          <td>鳳えむ</td><td>木野日菜</td><td>9/9</td><td>152cm</td><td>152cm</td><td>宮益坂女子学園</td><td>1-B</td><td>2-B</td><td>ご近所探検</td><td>アクロバット、なんでも美味しく食べられる</td><td>たい焼き</td><td>なし！</td><td>夕暮れ</td>
+        </tr>
+        <tr>
+          <td>草薙寧々</td><td>Machico</td><td>7/20</td><td>156cm</td><td>156cm</td><td>神山高校</td><td>1-B</td><td>2-A</td><td>対戦ゲーム、ミュージカル・映画鑑賞</td><td>歌、機械の操作全般</td><td>グレープフルーツ</td><td>ミント味の食べ物</td><td>人通りの多い場所</td>
+        </tr>
+        <tr>
+          <td>神代類</td><td>土岐隼一</td><td>6/24</td><td>180cm</td><td>182cm</td><td>神山高校</td><td>2-B</td><td>3-C</td><td>ショーの演出を考えること、バルーンアート</td><td>発明</td><td>ラムネ菓子</td><td>野菜全般</td><td>掃除、単純作業</td>
+        </tr>
+        <tr>
+          <td>宵崎奏</td><td>楠木ともり</td><td>2/10</td><td>154cm</td><td>154cm</td><td>通信制高校</td><td>-</td><td>-</td><td>音楽を探して聞くこと、映画や漫画、アニメ、美術作品を見ること</td><td>感覚で時間を計れる</td><td>カップ麺、缶詰</td><td>パクチーや納豆など、においが独特なもの</td><td>直射日光、家事全般</td>
+        </tr>
+        <tr>
+          <td>朝比奈まふゆ</td><td>田辺留依</td><td>1/27</td><td>162cm</td><td>162cm</td><td>宮益坂女子学園</td><td>2-B</td><td>3-B</td><td>アクアリウム</td><td>英会話</td><td>お母さんの手料理</td><td>わからない</td><td>わからない</td>
+        </tr>
+        <tr>
+          <td>東雲絵名</td><td>鈴木みのり</td><td>4/30</td><td>158cm</td><td>158cm</td><td>神山高校（夜間定時制）</td><td>2-D</td><td>3-D</td><td>絵を描くこと、自撮り＆SNSにアップ、エゴサーチ</td><td>ファッション小物のリサーチ、料理の食材当て</td><td>パンケーキ、チーズケーキ</td><td>にんじん</td><td>朝起きること</td>
+        </tr>
+        <tr>
+          <td>暁山瑞希</td><td>佐藤日向</td><td>8/27</td><td>163cm</td><td>165cm</td><td>神山高校</td><td>1-B</td><td>2-B</td><td>動画素材集め、コラージュ</td><td>洋服のアレンジ</td><td>カレーライス、フライドポテト</td><td>きのこ系</td><td>熱い食べ物</td>
+        </tr>
+      </table>
+    </section>
 
-  <h2>#プロセカプロフィール帳交換会</h2>
-    <div class="profile">
-      <figure>
-        <img src="https://pbs.twimg.com/media/HJJuxZWbYAATXy2?format=jpg&name=medium" alt="Ichika">
-        <figcaption>一歌</figcaption>
-      </figure>
-      <figure>
-        <img src="https://pbs.twimg.com/media/HJJuxZTbcAAAY1D?format=jpg&name=medium" alt="Saki">
-        <figcaption>咲希</figcaption>
-      </figure>
-      <figure>
-        <img src="https://pbs.twimg.com/media/HJJuxyKaEAA9t8e?format=jpg&name=medium" alt="Honami">
-        <figcaption>穂波</figcaption>
-      </figure>
-      <figure>
-        <img src="https://pbs.twimg.com/media/HJJuxyDaEAAV0WA?format=jpg&name=medium" alt="Shiho">
-        <figcaption>志歩</figcaption>
-      </figure>
-      <figure>
-        <img src="https://pbs.twimg.com/media/HJOwLGcawAAy2p_?format=jpg&name=medium" alt="Minori">
-        <figcaption>みのり</figcaption>
-      </figure>
-      <figure>
-        <img src="https://pbs.twimg.com/media/HJOwLGUasAA9v64?format=jpg&name=medium" alt="Haruka">
-        <figcaption>遥</figcaption>
-      </figure>
-      <figure>
-        <img src="https://pbs.twimg.com/media/HJOwLgRaAAAFZLs?format=jpg&name=medium" alt="Airi">
-        <figcaption>愛莉</figcaption>
-      </figure>
-      <figure>
-        <img src="https://pbs.twimg.com/media/HJOwLgMbMAApeYf?format=jpg&name=medium" alt="Shizuku">
-        <figcaption>雫</figcaption>
-      </figure>
-      <figure>
-        <img src="https://pbs.twimg.com/media/HJT5cjubIAAQ9CW?format=jpg&name=medium" alt="Kohane">
-        <figcaption>こはね</figcaption>
-      </figure>
-      <figure>
-        <img src="https://pbs.twimg.com/media/HJT5cjnbsAA2Hw2?format=jpg&name=medium" alt="An">
-        <figcaption>杏</figcaption>
-      </figure>
-      <figure>
-        <img src="https://pbs.twimg.com/media/HJT32OMawAArJA2?format=jpg&name=4096x4096" alt="Akito">
-        <figcaption>彰人</figcaption>
-      </figure>
-      <figure>
-        <img src="https://pbs.twimg.com/media/HJT328saIAAOI7f?format=jpg&name=4096x4096" alt="Toya">
-        <figcaption>冬弥</figcaption>
-      </figure>
-      <figure>
-        <img src="https://pbs.twimg.com/media/HJZBJAiboAAun41?format=jpg&name=4096x4096" alt="Tsukasa">
-        <figcaption>司</figcaption>
-      </figure>
-      <figure>
-        <img src="https://pbs.twimg.com/media/HJZBKK3aUAARij6?format=jpg&name=4096x4096" alt="Emu">
-        <figcaption>えむ</figcaption>
-      </figure>
-      <figure>
-        <img src="https://pbs.twimg.com/media/HJZB3R_bsAA2JEG?format=jpg&name=4096x4096" alt="Nene">
-        <figcaption>寧々</figcaption>
-      </figure>
-      <figure>
-        <img src="https://pbs.twimg.com/media/HJZB4onaEAAkZ5q?format=jpg&name=4096x4096" alt="Rui">
-        <figcaption>類</figcaption>
-      </figure>
-      <figure>
-        <img src="https://pbs.twimg.com/media/HJeNLEMbcAAeewV?format=jpg&name=medium" alt="Kanade">
-        <figcaption>奏</figcaption>
-      </figure>
-      <figure>
-        <img src="https://pbs.twimg.com/media/HJeNLD6bwAEpd7v?format=jpg&name=medium" alt="Mahuyu">
-        <figcaption>まふゆ</figcaption>
-      </figure>
-      <figure>
-        <img src="https://pbs.twimg.com/media/HJeNLd-bEAAIrDA?format=jpg&name=medium" alt="Ena">
-        <figcaption>絵名</figcaption>
-      </figure>
-      <figure>
-        <img src="https://pbs.twimg.com/media/HJeNLeAa4AA79Mg?format=jpg&name=medium" alt="Mizuki">
-        <figcaption>瑞希</figcaption>
-      </figure>
-      <figure>
-        <img src="https://pbs.twimg.com/media/HJOwLgQbMAA3xn2?format=jpg&name=medium" alt="Miku(stage)">
-        <figcaption>モモミク</figcaption>
-      </figure>
-      <figure>
-        <img src="https://pbs.twimg.com/media/HJJuxyLagAAKAYu?format=jpg&name=medium" alt="Rin(crass)">
-        <figcaption>レオニリン</figcaption>
-      </figure>
-      <figure>
-        <img src="https://pbs.twimg.com/media/HJeNLeEakAA6SWt?format=jpg&name=medium" alt="Len(empty)">
-        <figcaption>ニゴレン</figcaption>
-      </figure>
-      <figure>
-        <img src="https://pbs.twimg.com/media/HJZB53KakAAqGjW?format=jpg&name=4096x4096" alt="Luka(wonderland)">
-        <figcaption>ダショルカ</figcaption>
-      </figure>
-      <figure>
-        <img src="https://pbs.twimg.com/media/HJZB641akAEPX5w?format=jpg&name=4096x4096" alt="MEIKO(wonderland)">
-        <figcaption>ダショMEIKO</figcaption>
-      </figure>
-      <figure>
-        <img src="https://pbs.twimg.com/media/HJT33wTbcAA-pqy?format=jpg&name=4096x4096" alt="KAITO(street)">
-        <figcaption>ビビKAITO</figcaption>
-      </figure>
-    </div>
+    <section>
+      <h2>#プロセカプロフィール帳交換会</h2>
+      <div class="columns four-column">
+        <figure>
+          <img src="https://pbs.twimg.com/media/HJJuxZWbYAATXy2?format=jpg&name=medium" alt="Ichika">
+          <figcaption>一歌</figcaption>
+        </figure>
+        <figure>
+          <img src="https://pbs.twimg.com/media/HJJuxZTbcAAAY1D?format=jpg&name=medium" alt="Saki">
+          <figcaption>咲希</figcaption>
+        </figure>
+        <figure>
+          <img src="https://pbs.twimg.com/media/HJJuxyKaEAA9t8e?format=jpg&name=medium" alt="Honami">
+          <figcaption>穂波</figcaption>
+        </figure>
+        <figure>
+          <img src="https://pbs.twimg.com/media/HJJuxyDaEAAV0WA?format=jpg&name=medium" alt="Shiho">
+          <figcaption>志歩</figcaption>
+        </figure>
+        <figure>
+          <img src="https://pbs.twimg.com/media/HJOwLGcawAAy2p_?format=jpg&name=medium" alt="Minori">
+          <figcaption>みのり</figcaption>
+        </figure>
+        <figure>
+          <img src="https://pbs.twimg.com/media/HJOwLGUasAA9v64?format=jpg&name=medium" alt="Haruka">
+          <figcaption>遥</figcaption>
+        </figure>
+        <figure>
+          <img src="https://pbs.twimg.com/media/HJOwLgRaAAAFZLs?format=jpg&name=medium" alt="Airi">
+          <figcaption>愛莉</figcaption>
+        </figure>
+        <figure>
+          <img src="https://pbs.twimg.com/media/HJOwLgMbMAApeYf?format=jpg&name=medium" alt="Shizuku">
+          <figcaption>雫</figcaption>
+        </figure>
+        <figure>
+          <img src="https://pbs.twimg.com/media/HJT5cjubIAAQ9CW?format=jpg&name=medium" alt="Kohane">
+          <figcaption>こはね</figcaption>
+        </figure>
+        <figure>
+          <img src="https://pbs.twimg.com/media/HJT5cjnbsAA2Hw2?format=jpg&name=medium" alt="An">
+          <figcaption>杏</figcaption>
+        </figure>
+        <figure>
+          <img src="https://pbs.twimg.com/media/HJT32OMawAArJA2?format=jpg&name=4096x4096" alt="Akito">
+          <figcaption>彰人</figcaption>
+        </figure>
+        <figure>
+          <img src="https://pbs.twimg.com/media/HJT328saIAAOI7f?format=jpg&name=4096x4096" alt="Toya">
+          <figcaption>冬弥</figcaption>
+        </figure>
+        <figure>
+          <img src="https://pbs.twimg.com/media/HJZBJAiboAAun41?format=jpg&name=4096x4096" alt="Tsukasa">
+          <figcaption>司</figcaption>
+        </figure>
+        <figure>
+          <img src="https://pbs.twimg.com/media/HJZBKK3aUAARij6?format=jpg&name=4096x4096" alt="Emu">
+          <figcaption>えむ</figcaption>
+        </figure>
+        <figure>
+          <img src="https://pbs.twimg.com/media/HJZB3R_bsAA2JEG?format=jpg&name=4096x4096" alt="Nene">
+          <figcaption>寧々</figcaption>
+        </figure>
+        <figure>
+          <img src="https://pbs.twimg.com/media/HJZB4onaEAAkZ5q?format=jpg&name=4096x4096" alt="Rui">
+          <figcaption>類</figcaption>
+        </figure>
+        <figure>
+          <img src="https://pbs.twimg.com/media/HJeNLEMbcAAeewV?format=jpg&name=medium" alt="Kanade">
+          <figcaption>奏</figcaption>
+        </figure>
+        <figure>
+          <img src="https://pbs.twimg.com/media/HJeNLD6bwAEpd7v?format=jpg&name=medium" alt="Mahuyu">
+          <figcaption>まふゆ</figcaption>
+        </figure>
+        <figure>
+          <img src="https://pbs.twimg.com/media/HJeNLd-bEAAIrDA?format=jpg&name=medium" alt="Ena">
+          <figcaption>絵名</figcaption>
+        </figure>
+        <figure>
+          <img src="https://pbs.twimg.com/media/HJeNLeAa4AA79Mg?format=jpg&name=medium" alt="Mizuki">
+          <figcaption>瑞希</figcaption>
+        </figure>
+        <figure>
+          <img src="https://pbs.twimg.com/media/HJOwLgQbMAA3xn2?format=jpg&name=medium" alt="Miku(stage)">
+          <figcaption>モモミク</figcaption>
+        </figure>
+        <figure>
+          <img src="https://pbs.twimg.com/media/HJJuxyLagAAKAYu?format=jpg&name=medium" alt="Rin(crass)">
+          <figcaption>レオニリン</figcaption>
+        </figure>
+        <figure>
+          <img src="https://pbs.twimg.com/media/HJeNLeEakAA6SWt?format=jpg&name=medium" alt="Len(empty)">
+          <figcaption>ニゴレン</figcaption>
+        </figure>
+        <figure>
+          <img src="https://pbs.twimg.com/media/HJZB53KakAAqGjW?format=jpg&name=4096x4096" alt="Luka(wonderland)">
+          <figcaption>ダショルカ</figcaption>
+        </figure>
+        <figure>
+          <img src="https://pbs.twimg.com/media/HJZB641akAEPX5w?format=jpg&name=4096x4096" alt="MEIKO(wonderland)">
+          <figcaption>ダショMEIKO</figcaption>
+        </figure>
+        <figure>
+          <img src="https://pbs.twimg.com/media/HJT33wTbcAA-pqy?format=jpg&name=4096x4096" alt="KAITO(street)">
+          <figcaption>ビビKAITO</figcaption>
+        </figure>
+      </div>
+    </section>    
+  </main>
 </body>
 </html>

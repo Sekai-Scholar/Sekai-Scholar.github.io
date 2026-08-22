@@ -1,3 +1,56 @@
-td, th {
-  padding: 0 4px;
+dt {
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+figcaption {
+  text-align: center;
+}
+
+img{
+  width: 100%;
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 4px;
+}
+
+.overflow-table {
+  overflow-x: auto;
+}
+
+.overflow-table :is(th, td) {
+  white-space: nowrap;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.columns figure {
+  margin: 0;
+}
+
+.two-column figure {
+  width: calc(50% - 10px);
+}
+
+.three-column figure {
+  width: calc(33.33% - 10px);
+}
+
+.four-column figure {
+  width: calc(25% - 10px);
+}
+
+.five-column figure {
+  width: calc(20% - 10px);
 }
