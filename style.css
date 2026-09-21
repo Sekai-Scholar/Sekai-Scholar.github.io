@@ -54,3 +54,15 @@ th, td {
 .five-column figure {
   width: calc(20% - 10px);
 }
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.tabs button.active {
+  font-weight: bold;
+}
